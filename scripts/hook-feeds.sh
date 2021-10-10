@@ -58,7 +58,7 @@ cp -r temp/packages/libs/msgpack-c packages/libs/msgpack-c
 cp -r temp/packages/admin/gotop packages/admin/gotop
 
 # Add minieap
-cp -r temp/packages/net/minieap packages/net/minieap
+git clone https://github.com/KumaTea/openwrt-minieap.git packages/net/minieap
 rm -rf temp
 popd
 
